@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great massage with a conscience
+title: Super massage ja super
 image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
-heading: Great coffee with a conscience
+heading: Maak een afspraak ;)
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
