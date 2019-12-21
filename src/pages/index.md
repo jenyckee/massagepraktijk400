@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Super massage ja super
 image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
-heading: Maak een afspraak ;)
-subheading: Support sustainable farming while enjoying a cup
+heading: De beste van de streek
+subheading: Maak een afspraak
 mainpitch:
   title: Why Kaldi
   description: >
