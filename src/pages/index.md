@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Njuta
 image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
-heading: De beste van de streek
+heading: Soorten massage
 subheading: Maak een afspraak
 mainpitch:
   title: Laat je masseren na een vermoeiende dag
