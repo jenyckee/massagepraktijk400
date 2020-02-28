@@ -1,23 +1,18 @@
 ---
 templateKey: index-page
-title: Super massage ja super
+title: Njuta
 image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
 heading: De beste van de streek
 subheading: Maak een afspraak
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: Laat je masseren na een vermoeiende dag
+  description: >+
+    Wil je even alle spanning van het dagelijkse leven laten gaan? Niets moeten,
+    alleen maar genieten? Bij Massagepraktijk Njuta kun je tot rust komen. Met
+    onze diverse massages kun je ontspannen en alles van een hectische dag los
+    laten. Wij hebben verschillende massages waar je uit kunt kiezen.
+
+description: '#'
 intro:
   blurbs:
     - image: /img/toa-heftiba-hblf2nvp-yc-unsplash.jpg
@@ -38,14 +33,20 @@ intro:
         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
-  heading: What we offer
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  heading: Wat kan massage voor u doen?
+  description: |
+    Massage kan voor u:
+
+    Uw spieren helpen te ontspannen
+    Een mogelijk herstelproces verkorten
+    De kans op blessures aanzienlijk verminderen
+    De bloedcirculatie bevorderen
+    De stofwisseling in de spieren verbeteren
+    De genezing van weefsel activeren en / of bevorderen
+    Het gezond functioneren van de huid bevorderen
+    Een respons van diepe ontspanning geven
+    De uitstraling verbeteren
+    Emotioneel evenwicht bieden
 main:
   heading: Great coffee with no compromises
   description: >
