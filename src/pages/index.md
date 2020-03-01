@@ -15,7 +15,8 @@ mainpitch:
 description: '#'
 intro:
   blurbs:
-    - image: /img/toa-heftiba-hblf2nvp-yc-unsplash.jpg
+    - title: Klassieke massage
+      image: /img/toa-heftiba-hblf2nvp-yc-unsplash.jpg
       text: >+
         Deze massagevorm is vooral gericht op het soepeler maken van de spieren.
         Door het toepassen van deze massage zullen spierknopen en verklevingen
@@ -27,7 +28,8 @@ intro:
         Deze massage werkt ontspannend en verminderd klachten op mentaal en
         emotioneel gebied.
 
-    - image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
+    - title: Ontspanningsmassage
+      image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
       text: >-
         Deze massagevorm brengt lichaam en geest weer helemaal tot rust. Door
         het masseren van de buitenste laag van uw spieren, zal dit een
@@ -36,7 +38,8 @@ intro:
 
         Deze vorm komt overeen met de klassieke massage maar wordt lichter
         ingezet.
-    - image: /img/adventure-athlete-athletic-daylight-235922.jpg
+    - title: Sportmassage
+      image: /img/adventure-athlete-athletic-daylight-235922.jpg
       text: >+
         Deze massagevorm is speciaal voor sporters met als doel blessures te
         voorkomen, klachten van blessures te verminderen en om goed te kunnen
@@ -50,7 +53,8 @@ intro:
         Daardoor zal de spier zich goed kunnen herstellen. Het uiteindelijke
         doel zal zijn dat uw sportprestaties zullen verbeteren.
 
-    - image: /img/backpain-1944329_1920.png
+    - title: Rugpijnmassage
+      image: /img/backpain-1944329_1920.png
       text: >+
         Bij de rugpijnmassage gaan we wat intensiever te werk op de rugstreek,
         hierbij zal de hele rug vanaf de stuit tot aan de schedelrand zorgvuldig
@@ -96,21 +100,5 @@ intro:
     Een respons van diepe ontspanning geven
     De uitstraling verbeteren
     Emotioneel evenwicht bieden
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
 
