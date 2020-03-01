@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 import logo from '../img/logo.svg'
 import '../index.css'
 
@@ -47,7 +46,8 @@ export const IndexPageTemplate = ({
               color: 'rgb(91, 98, 101)',
               lineHeight: '1',
               padding: '0.25em',
-              fontFamily: 'Marta'
+              fontFamily: 'Marta',
+              marginTop: 0
             }}
           >
           {title}
@@ -180,6 +180,7 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            title
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
