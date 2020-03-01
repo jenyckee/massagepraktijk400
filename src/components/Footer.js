@@ -7,7 +7,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <Link to="/contact"><h1>Reserveer</h1></Link>
+          <Link to="/contact"><h1></h1></Link>
         </div>
       </footer>
     )
