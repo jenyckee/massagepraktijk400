@@ -1,4 +1,16 @@
+body {
+  font-family: CrimsonText;
+}
+
 @font-face {
   font-family: 'Marta';
   src: local('Marta'), url(./fonts/marta.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: local('Montserrat-Light'), url(./fonts/Montserrat-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'CrimsonText';
+  src: local('CrimsonText'), url(./fonts/CrimsonText-Regular.ttf) format('ttf');
 }
