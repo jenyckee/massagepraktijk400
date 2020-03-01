@@ -5,6 +5,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import logo from '../img/logo.svg'
+import '../index.css'
 
 export const IndexPageTemplate = ({
   image,
@@ -19,9 +21,7 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        background: 'rgb(251, 217, 206)',
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -36,20 +36,26 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
+        <div className="content has-text-centered">
+          <img
+            src={logo}
+            alt="Kaldi"
+            style={{ width: '14em', height: '10em' }}
+          />
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              color: 'rgb(91, 98, 101)',
+              lineHeight: '1',
+              padding: '0.25em',
+              fontFamily: 'Marta'
+            }}
+          >
           {title}
         </h1>
-        <Link to="/contact">
+        </div>
+
+        {/* <Link to="/contact">
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
@@ -63,7 +69,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        </Link>
+        </Link> */}
       </div>
     </div>
     <section className="section section--gradient">
