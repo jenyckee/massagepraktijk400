@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { reservationLink } from '../constants'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -63,11 +64,11 @@ const Navbar = class extends React.Component {
               </Link> */}
             </div>
             <div className="navbar-end has-text-centered">
-              <Link to="/contact" className="navbar-item">
-                <span className="button">
+              <a href={reservationLink} className="navbar-item">
+                <button className="button">
                   Reserveer
-                </span>
-              </Link>
+                </button>
+              </a>
             </div>
           </div>
         </div>

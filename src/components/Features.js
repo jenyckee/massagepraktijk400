@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { reservationLink } from '../constants'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -19,6 +20,11 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p>{item.text}</p>
+          <a href={reservationLink} >
+            <button className="button">
+              Reserveer
+            </button>
+          </a>
         </section>
       </div>
     ))}
