@@ -14,27 +14,26 @@ $black: #2b2523
 h1, h2, h3, h4
   font-family: 'Crimson Text', serif
 
-
 .navbar .button
   background: white
   border: none
   a 
-    color: rgb(91, 98, 101)
+    color: $body-color
 
 .content h1, .content h2, .content h3
-  color: rgb(91, 98, 101) !important
+  color: $body-color
   text-align: center
   border: none
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow:none
 
 .navbar .navbar-item
   padding-top: 1.5rem
 
 .navbar
-  background-color: transparent !important
-  position: absolute !important
+  background-color: transparent
+  position: absolute
   width: 100%
 
 .content .taglist
@@ -105,12 +104,12 @@ h1, h2, h3, h4
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 3rem 0rem 3rem
   background-color: transparent
 
 //Menu overrides
 $menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
+$menu-item-hover-color: $black
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
@@ -119,35 +118,11 @@ $menu-label-color: $white-ter
 
 
 .menu-label
-  font-size: 1em !important
+  font-size: 1em
   text-align: left
 .menu-list
-  list-style: none !important
+  list-style: none
   text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
-
-// blog roll
-.blog-list-item.is-featured
-  background-color: #d6400033;
-.blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
-.blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
-
-
-
 
 // responsiveness
 +tablet-only

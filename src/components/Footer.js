@@ -7,8 +7,13 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <a href={reservationLink}><h1></h1></a>
+        <div className="columns">
+          <div class="column is-3 is-offset-9">
+            <div className="section">
+              <p>Houtemstraat 400<br/>
+              3300 Tienen</p>
+            </div>
+          </div>
         </div>
       </footer>
     )
