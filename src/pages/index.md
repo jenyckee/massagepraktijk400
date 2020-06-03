@@ -5,18 +5,18 @@ image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
 heading: Soorten massage
 subheading: Maak een afspraak
 mainpitch:
-  title: Laat je masseren na een vermoeiende dag
   description: >+
     Wil je even alle spanning van het dagelijkse leven laten gaan? Niets moeten,
     alleen maar genieten? Bij Massagepraktijk Njuta kun je tot rust komen. Met
     onze diverse massages kun je ontspannen en alles van een hectische dag los
     laten. Wij hebben verschillende massages waar je uit kunt kiezen.
 
-description: '#'
+  title: Laat je masseren na een vermoeiende dag
 intro:
   blurbs:
     - title: Klassieke massage
       image: /img/toa-heftiba-hblf2nvp-yc-unsplash.jpg
+      slug: klassiek
       text: >+
         Deze massagevorm is vooral gericht op het soepeler maken van de spieren.
         Door het toepassen van deze massage zullen spierknopen en verklevingen
@@ -30,6 +30,7 @@ intro:
 
     - title: Ontspanningsmassage
       image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
+      slug: ontspanning
       text: >-
         Deze massagevorm brengt lichaam en geest weer helemaal tot rust. Door
         het masseren van de buitenste laag van uw spieren, zal dit een
@@ -40,6 +41,7 @@ intro:
         ingezet.
     - title: Sportmassage
       image: /img/adventure-athlete-athletic-daylight-235922.jpg
+      slug: sport
       text: >+
         Deze massagevorm is speciaal voor sporters met als doel blessures te
         voorkomen, klachten van blessures te verminderen en om goed te kunnen
@@ -55,6 +57,7 @@ intro:
 
     - title: Rugpijnmassage
       image: /img/backpain-1944329_1920.png
+      slug: rugpijn
       text: >+
         Bij de rugpijnmassage gaan we wat intensiever te werk op de rugstreek,
         hierbij zal de hele rug vanaf de stuit tot aan de schedelrand zorgvuldig
@@ -86,7 +89,6 @@ intro:
         stress, overbelasting, zwaar werk, verkeerde houding, overgewicht, een
         te hard of juist te zacht matras, enzovoorts. 
 
-  heading: Wat kan massage voor u doen?
   description: |
     Massage kan voor u:
 
@@ -100,5 +102,6 @@ intro:
     Een respons van diepe ontspanning geven
     De uitstraling verbeteren
     Emotioneel evenwicht bieden
+  heading: Wat kan massage voor u doen?
 ---
 
