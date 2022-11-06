@@ -1,13 +1,13 @@
 ---
 templateKey: index-page
-title: Njuta
+title: Massagepraktijk 400
 image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
 heading: Soorten massage
 subheading: Maak een afspraak
 mainpitch:
   description: >+
     Wil je even alle spanning van het dagelijkse leven laten gaan? Niets moeten,
-    alleen maar genieten? Bij Massagepraktijk Njuta kun je tot rust komen. Met
+    alleen maar genieten? Bij Massagepraktijk 400 kun je tot rust komen. Met
     onze diverse massages kun je ontspannen en alles van een hectische dag los
     laten. Wij hebben verschillende massages waar je uit kunt kiezen.
 
