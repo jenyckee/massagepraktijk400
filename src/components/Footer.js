@@ -1,7 +1,4 @@
 import React from 'react'
-import logo from '../img/logo.svg'
-import { Link } from 'gatsby'
-import { reservationLink } from '../constants'
 
 const Footer = class extends React.Component {
   render() {
