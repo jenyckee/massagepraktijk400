@@ -1,1 +1,1 @@
-export const reservationLink = "https://www.canumeet.com/njuta"
+export const reservationLink = "https://calendly.com/jenyckee/one-on-one"
