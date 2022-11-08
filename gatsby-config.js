@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Massagepraktijk 400",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Bij Massagepraktijk 400 kun je tot rust komen. Met onze diverse massages kun je ontspannen en alles van een hectische dag los laten.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
