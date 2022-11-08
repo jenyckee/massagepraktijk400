@@ -21,10 +21,10 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <p>{item.text}</p>
           <div className="buttons">
-            <a className="button" href={`${reservationLink}`}>
+            <a className="button" href={`${reservationLink}/massage-uur`}>
               Reserveer 1 uur
             </a>
-            <a className="button" href={`${reservationLink}`}>
+            <a className="button" href={`${reservationLink}/massage-anderhalf-uur`}>
               Reserveer anderhalf uur
             </a>
           </div>

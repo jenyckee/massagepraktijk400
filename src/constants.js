@@ -1,1 +1,1 @@
-export const reservationLink = "https://calendly.com/jenyckee/one-on-one"
+export const reservationLink = "https://calendly.com/massagepraktijk400"
