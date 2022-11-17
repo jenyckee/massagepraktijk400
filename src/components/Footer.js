@@ -9,6 +9,7 @@ const Footer = class extends React.Component {
             <div className="section">
               <p>Houtemstraat 400<br/>
               3300 Tienen</p>
+              <p>BE0519814783</p>
             </div>
           </div>
         </div>
