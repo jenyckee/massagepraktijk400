@@ -20,6 +20,8 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p>{item.text}</p>
+          <p>{item.price}</p>
+          {console.log(item)}
           <div className="buttons">
             <a className="button" href={`${reservationLink}/massage-uur`}>
               Reserveer 1 uur
@@ -39,6 +41,7 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
+      price: PropTypes.string,
     })
   ),
 }

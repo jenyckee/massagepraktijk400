@@ -59,7 +59,6 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-
                 <div className="columns">
                   <div className="column is-12">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -148,6 +147,7 @@ export const pageQuery = graphql`
               }
             }
             text
+            pricing
             slug
           }
           heading

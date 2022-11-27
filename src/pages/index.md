@@ -83,10 +83,6 @@ intro:
 
         stress, overbelasting, zwaar werk, verkeerde houding, een te hard of juist te zacht matras, enz.
 
-
-        60 minuten : 50 euro 
-
-        90 minuten : 60 euro
       price: |-
         60 minuten : 50 euro 
         90 minuten : 60 euro

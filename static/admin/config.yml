@@ -50,7 +50,15 @@ collections:
                         { label: Title, name: title, widget: string },
                         { label: Image, name: image, widget: image },
                         { label: Text, name: text, widget: text },
-                        { label: Price, name: price, widget: text },
+                        {
+                          label: Pricing,
+                          name: pricing,
+                          widget: object,
+                          fields: [
+                            { label: Time, name: time, widget: text },
+                            { label: Price, name: price, widget: text }
+                          ],
+                        },
                         { label: Slug, name: slug, widget: string },
                       ],
                   },
