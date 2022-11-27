@@ -147,7 +147,7 @@ export const pageQuery = graphql`
               }
             }
             text
-            pricing
+            price
             slug
           }
           heading
