@@ -56,21 +56,14 @@ intro:
       text: >+
         Bij de rugpijnmassage gaan we wat intensiever te werk op de rugstreek,
         hierbij zal de hele rug vanaf de stuit tot aan de schedelrand zorgvuldig
-        worden losgemasseerd. Dit is vaak effectiever dan een bezoek aan een
-        fysiotherapeut omdat deze simpelweg niet de tijd heeft om iedereen
-        helemaal los te masseren en daardoor sneller geneigd is om u met wat
-        simpele thuisoefeningen naar huis te sturen. 
+        worden losgemasseerd. 
 
-         
+
 
         80% van de rugklachten worden ook wel A-specifieke klachten genoemd, dat wil zeggen dat een arts geen medische diagnose kan stellen voor uw klachten.
 
 
         De pijn word dus veroorzaakt door verkrampte spieren in het lichaam.
-
-
-        Dit lost zichzelf niet zomaar op, dit omdat er weinig doorbloeding in het lichaam is en er zich veel afvalstoffen bevinden die niet goed weg kunnen. Daarom hebben veel mensen langdurig last van de rug en blijven hiermee vervolgens onnodig lang mee rondlopen.
-
          
 
         Mogelijke oorzaken zijn:
