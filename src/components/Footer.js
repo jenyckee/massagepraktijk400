@@ -10,7 +10,8 @@ const Footer = class extends React.Component {
               <p>Houtemstraat 400<br/>
               3300 Tienen</p>
               <p>Ondernemingsnummer:</p>
-              <p>BE0519814783</p>
+              <p>2.336.794.237</p>
+              <p>BTW: BE0519814783</p>
             </div>
           </div>
         </div>
