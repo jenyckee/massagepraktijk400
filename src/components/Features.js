@@ -20,7 +20,7 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p>{item.text}</p>
-          <p>{item.price}</p>
+          <p className='pricing'>{item.price}</p>
           <div className="buttons">
             <a className="button" href={`${reservationLink}/massage-uur`}>
               Reserveer 1 uur
