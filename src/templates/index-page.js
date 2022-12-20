@@ -1,58 +1,37 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import logo from '../img/logo.svg'
-import '../index.css'
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import logo from "../img/logo.svg";
+import "../index.css";
 
-export const IndexPageTemplate = ({
-  title,
-  heading,
-  mainpitch,
-  intro,
-}) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        background: 'rgb(251, 217, 206)',
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              color: 'rgb(91, 98, 101)',
-              lineHeight: '1',
-              padding: '0.25em',
-              fontFamily: 'Marta',
-              marginTop: 0
-            }}
-          >
-          {title}
-        </h1>
+export const IndexPageTemplate = ({ title, heading, mainpitch, intro }) => (
+  <>
+    <section className="mp400-hero">
+      <div className="mp400-hero-video">
+        <div className="container">
+          <video autoPlay loop muted>
+            <source
+              src="/img/pexels-karolina-grabowska.webm"
+              type="video/webm"
+            />
+          </video>
         </div>
       </div>
-    </div>
+      <div className="mp400-hero-body">
+        <img
+          src={logo}
+          alt="Kaldi"
+          style={{ width: "14em", height: "10em" }}
+          className="m-auto"
+        />
+        <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
+          {title}
+        </h1>
+      </div>
+    </section>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -75,8 +54,8 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-  </div>
-)
+  </>
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -87,10 +66,10 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-}
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -104,8 +83,8 @@ const IndexPage = ({ data }) => {
         intro={frontmatter.intro}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -113,9 +92,9 @@ IndexPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -141,9 +120,7 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
               }
             }
             text
@@ -156,4 +133,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
