@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
 import { reservationLink } from '../constants'
 
@@ -15,9 +14,9 @@ const Navbar = () => {
     >
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item" title="Logo">
+          {/* <Link to="/" className="navbar-item" title="Logo">
             <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-          </Link>
+          </Link> */}
           {/* Hamburger menu */}
           <button
             className={`navbar-burger burger ${isActive && "is-active"}`}
@@ -39,6 +38,11 @@ const Navbar = () => {
                 to a ul for accessibilty purposes, would like to see a css
                 re-write that makes this unneccesary.
              */}
+          <li className="navbar-item" style={{ padding: "0px" }}>
+            <Link className="navbar-item" to="/">
+              Massages
+            </Link>
+          </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/about">
               Prijslijst

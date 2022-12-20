@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import logo from "../img/logo.svg";
 import "../index.css";
+import { reservationLink } from "../constants";
 
 export const IndexPageTemplate = ({ title, heading, mainpitch, intro }) => (
   <>
@@ -30,6 +31,11 @@ export const IndexPageTemplate = ({ title, heading, mainpitch, intro }) => (
         <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
           {title}
         </h1>
+        <div className="m-t5">
+          <a href={reservationLink} className="mt-5 has-text-centered">
+            <button className="button">Reserveer</button>
+          </a>
+        </div>
       </div>
     </section>
     <section className="section section--gradient">
