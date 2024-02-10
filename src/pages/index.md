@@ -7,11 +7,11 @@ subheading: Maak een afspraak
 mainpitch:
   description: >+
     Wil je even alle spanning van het dagelijkse leven laten gaan? Niets moeten,
-    alleen maar genieten? Bij Massagepraktijk 400 kun je tot rust komen. Met
-    onze diverse massages kun je ontspannen en alles van een hectische dag los
-    laten. Wij hebben verschillende massages waar je uit kunt kiezen.
+    alleen maar genieten? Bij Massagepraktijk 400 kan je tot rust komen.
+     Met onze diverse massages kun je ontspannen en alles van een hectische dag los laten. Wij hebben verschillende massages waar je uit kunt kiezen.
 
-  title: Laat je masseren na een vermoeiende dag
+  title: Laat je masseren na een vermoeiende dag of geef jezelf een ontspannend
+    verwenmomentje of verras iemand met een cadeaubon
 intro:
   blurbs:
     - title: Klassieke massage
@@ -27,9 +27,12 @@ intro:
         Deze massage werkt ontspannend en verminderd klachten op mentaal en emotioneel gebied.
          
 
-      price: |-
+      price: >-
         60 minuten : 50 euro 
+
         90 minuten : 60 euro
+
+        Studententarief : op vertoon van studentenkaart 10 euro korting op massage 
     - title: Ontspanningsmassage
       image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
       slug: ontspanning
@@ -42,26 +45,12 @@ intro:
         Deze vorm komt overeen met de klassieke massage maar wordt lichter ingezet.
 
 
-      price: |-
+      price: >-
         60 minuten : 50 euro 
+
         90 minuten : 60 euro
-    - title: Sportmassage
-      image: /img/adventure-athlete-athletic-daylight-235922.jpg
-      slug: sport
-      text: >+
-        Deze massagevorm is speciaal voor sporters met als doel blessures te
-        voorkomen, klachten van blessures te verminderen en om goed te kunnen
-        herstellen na een zware inspanning.
 
-
-        Door deze intensieve massage zullen afvalstoffen direct de spier verlaten.
-
-
-        Daardoor zal de spier zich goed kunnen herstellen. Het uiteindelijke doel zal zijn dat uw sportprestaties zullen verbeteren.
-
-      price: |-
-        60 minuten : 50 euro 
-        90 minuten : 60 euro
+        Studententarief : op vertoon van studentenkaart 10 euro korting op massage 
     - title: Rugpijnmassage
       image: /img/backpain-1944329_1920.png
       slug: rugpijn
@@ -82,10 +71,12 @@ intro:
 
 
         stress, overbelasting, zwaar werk, verkeerde houding, een te hard of juist te zacht matras, enz.
-
-      price: |-
+      price: >-
         60 minuten : 50 euro 
+
         90 minuten : 60 euro
+
+        Studententarief : op vertoon van studentenkaart 10 euro korting op massage 
   description: |
     Massage kan voor u:
 
@@ -97,7 +88,6 @@ intro:
     De genezing van weefsel activeren en / of bevorderen
     Het gezond functioneren van de huid bevorderen
     Een respons van diepe ontspanning geven
-    De uitstraling verbeteren
     Emotioneel evenwicht bieden
   heading: Wat kan massage voor u doen?
 ---
