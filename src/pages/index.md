@@ -53,7 +53,7 @@ intro:
 
         Studententarief : op vertoon van studentenkaart 10 euro korting op massage 
     - title: Rugpijnmassage
-      image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
+      image: /img/back_massage_1296x728-header-1296x728.jpg
       slug: rugpijn
       text: >-
         Bij de rugpijnmassage gaan we wat intensiever te werk op de rugstreek,
