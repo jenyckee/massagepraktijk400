@@ -7,8 +7,9 @@ subheading: Maak een afspraak
 mainpitch:
   description: >+
     Wil je even alle spanning van het dagelijkse leven laten gaan? Niets moeten,
-    alleen maar genieten? Bij Massagepraktijk 400 kan je tot rust komen.
-     Met onze diverse massages kun je ontspannen en alles van een hectische dag los laten. Wij hebben verschillende massages waar je uit kunt kiezen.
+    alleen maar genieten? Bij Massagepraktijk 400 kan je tot rust komen.  Met
+    onze diverse massages kun je ontspannen en alles van een hectische dag los
+    laten. Wij hebben verschillende massages waar je uit kunt kiezen.
 
   title: Laat je masseren na een vermoeiende dag of geef jezelf een ontspannend
     verwenmomentje of verras iemand met een cadeaubon
@@ -52,7 +53,7 @@ intro:
 
         Studententarief : op vertoon van studentenkaart 10 euro korting op massage 
     - title: Rugpijnmassage
-      image: /img/backpain-1944329_1920.png
+      image: /img/toa-heftiba-a9pfsc8dtlo-unsplash.jpg
       slug: rugpijn
       text: >-
         Bij de rugpijnmassage gaan we wat intensiever te werk op de rugstreek,
